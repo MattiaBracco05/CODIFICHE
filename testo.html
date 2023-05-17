@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3C - Bracco Mattia</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- PUNTO DI RITORNO INIZIO PAGINA -->
+        <a name="up"></a>
+
+        <!-- NAVBAR -->
+        <div class="row mb-3">
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-1 offset-xl-3 bg-dark navbar"><a href="index.html">HOME</a></div>
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-success navbar">TESTO</div>
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="audio.html">AUDIO</a></div>
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="immagini.html">IMMAGINI</a></div>
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="video.html">VIDEO</a></div>
+            <div class="col-xs-12, col-sm-12, col-md-4 offset-md-2, col-xl-2 bg-dark navbar"><a href="corpo.html">CORPO UMANO</a></div>
+        </div>
+
+        <!-- INIZIO TESTO -->
+        <div class="row">
+            <a name="video"></a>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 mt-3 testo">TESTO</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2 mt-3"><img width="100%" src="img/lettere.jpg" title="" alt="mani" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE L' ASCII -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Il più famoso set di caratteri è l' <strong>ASCII</strong> (acronimo di American Standard Code for Information Interchange), questo set ha costituito il primo standard per la rappresentazione binaria dei caratteri ed è stato la base
+                    per tutti i set successivi.
+                    <br> I 128 punti di questo codice ASCII erano sufficienti per poter codificare dei testi esclusivamente con i caratteri dell' alfabeto latino mentre diventavano pochi nel caso di una lingua come l' italiano.
+                    <br> Per ovviare a questo limite furono create delle estensioni che utilizzavano 8 bit per la codifica. La soluzione a questo limite delle estensioni ASCII è stata individuata con lo <strong>standard Unicode</strong>. Oggi l' ultima
+                    versione fornisce la codifica di 96.382 caratteri.
+                </p>
+            </div>
+        </div>
+
+        <!-- UTF 8 E UTF 16 -->
+        <div class="row mt-3">
+            <div class="col-12 utf">UTF-8 E UTF-16</div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE L' UTF-->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    <strong>UTF</strong> (Unicode Transformation Format) è una famiglia di standard per la <strong>codifica dei caratteri Unicode</strong> nel suo equivalente valore binario.
+                    <br> L' UTF è stato sviluppato in modo tale che gli utenti possano disporre di un mezzo standar per codificare con una minima quantità di spazio.
+                    <br> Entrambi sono a larghezza variabile e possono utilizzare fino a 4 byte per codificare i dati, ma quando si riduce al minimo, l' UTF-8 utilizza solamente 1 byte (8 bit) mentre l' UTF-16 utilizza 2 byte (16 bit). Quando si utilizzano
+                    solo caratteri ASCII, un file con la codifica UTF-16 sarebbe grande il doppio rispetto al file codificato UTF-8.
+                    <br> <strong>UTF-8</strong> è in formato <strong>byte oriented</strong> quindi non ha alcun problema con reti o file orientati ai byte, invece l' <strong>UTF-16</strong> non è orientato ai byte perciò <strong>ha bisogno di stabilire un ordine
+                    dei byte</strong>.
+                    <br> UTF-8 è migliore nel recuperare da errori che corrompono parti del file in quanto può ancora decodificare il prossimo byte non corrotto, l' UTF-16 fa esattamente la stessa cosa ma se dei byte vengono persi questi potrebbero mescolare
+                    le combinazioni successive.
+                </p>
+            </div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA CONVERSIONE-->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Il seguente link porta ad un <strong>convertitore caratteri in codice ASCII e codice ASCII in caratteri, con questo possiamo avere un' idea di come risulti al pc un testo che noi digitiamo</strong>.
+                    <br><a target="new" href="http://www.unit-conversion.info/texttools/ascii/">CONVERTITORE</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- TASTO RITORNO INIZIO PAGINA -->
+        <div class="row mt-3">
+            <div class="col-2 bg-dark tastoHome"><a href="index.html">HOME</a></div>
+            <div class="col-1 offset-9 bg-warning tastoUp"><a href="#up">UP</a></div>
+        </div>
+
+    </div>
+
+    <!-- VA SEMPRE MESSO COME ULTIMA COSA PRIMA DI CHIUDERE IL BODY ! -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

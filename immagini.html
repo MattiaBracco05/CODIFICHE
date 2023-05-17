@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3C - Bracco Mattia</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- PUNTO DI RITORNO INIZIO PAGINA -->
+        <a name="up"></a>
+
+        <!-- NAVBAR -->
+        <div class="row mb-3">
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 offset-xl-3 bg-dark navbar"><a href="index.html">HOME</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="testo.html">TESTO</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="audio.html">AUDIO</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-success navbar">IMMAGINI</div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="video.html">VIDEO</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-2 bg-dark navbar"><a href="corpo.html">CORPO UMANO</a></div>
+        </div>
+
+        <!-- INIZIO CODIFICHE IMMAGINI -->
+        <div class="row">
+            <a name="immagini"></a>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 mt-3 immagini">CODIFICHE IMMAGINI</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2 mt-3"><img width="100%" src="img/cielo.jpeg" title="" alt="cielo" /></div>
+        </div>
+
+        <!-- SCALARE E VETTORIALE -->
+        <div class="row">
+            <div class="col-12 mt-3 definizioni">
+                <p>Si possono identificare 2 tipologie di immagini digitali: quelle <strong>VETTORIALI</strong> e quelle <strong>SCALARI</strong></strong> (dette anche raster).</p>
+            </div>
+        </div>
+
+        <!-- IMMAGINE CONFRONTO -->
+        <div class="row">
+            <div class="col-xl-8 offset-4"><img width="50%" src="img/differenza_immagini.jpg" title="" alt="differenza scalare e vettoriale" /></div>
+        </div>
+
+        <!-- VECTOR -->
+        <div class="row">
+            <div class="col-8 offset-4 mt-3"><img width="50%" src="img/vector.jpeg" title="" alt="scritta vector" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE L' IMMAGINE VETTORIALE -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Le <strong>immagini vettoriali</strong> (prima immagine) vengono utilizzate specialmente nel <strong>disegno geometrico</strong> (es. su AUTOCAD), nei <strong>loghi</strong> e nelle <strong>mappe</strong>.
+                    <br> Questa immagine viene rappresentata grazie a delle funzioni matematiche. Così facendo ci si può permettere di effettuare uno zoom senza avere dei pixel "sgranati" e di conseguenza senza perdere qualita.
+                </p>
+            </div>
+        </div>
+
+        <!-- RASTER -->
+        <div class="row">
+            <div class="col-8 offset-4"><img width="50%" src="img/raster.jpeg" title="" alt="scritta raster" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE L' IMMAGINE SCALARE -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Le <strong>immagini scalari</strong> (seconda immagine) sono quelle impiegate per le <strong>fotografie</strong> o per le <strong>scansioni</strong>, queste immagini sono rappresentate con una <strong>MATRICE DI NUMERI (bittmapped)</strong>.
+                    <br> Per ottenere questa immagine è neccessario trasformare l' immagine analogica in un' insieme di informazioni come la luce e il colore, questa operazione prende il nome di <strong>DIGITALIZZAZIONE</strong>.
+                    <br> Possiamo dividere l' operazione di digitalizzazione in 2 parti: <strong>CAMPIONAMENTO SPAZIALE</strong> e <strong>QUANTIZZAZIONE</strong>.
+                    <br> La prima consiste nel sovrappore virtualmente una griglia di minuscole celle dette picture element (comunemente chiamate <strong>PIXEL</strong>).
+                    <br> Quella successiva si occupa di associare ad ogni punto un numero il quale corrisponde mediante una tabella (<strong>tavolozza</strong>) ad un preciso colore.
+                </p>
+            </div>
+        </div>
+
+        <!-- COLORI -->
+        <div class="row">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 colori mt-3">IMMAGINE A COLORI</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2 mt-3"><img width="100%" src="img/colori.jpg" title="" alt="colori" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA SEZIONE COLORE -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Assegnando un solo bit per codificare il colore a ciascun pixel abbiamo a disposizione solo 2 valori 0 (bianco) o 1 (nero). Utilizzando 4 bit abbiamo la possibilita di codificare 16 livelli di grigio (2^4), mentre con 8 bit i livelli di grigio salgono
+                    a 256 (2^8).
+                </p>
+            </div>
+        </div>
+
+        <!-- RGB E CMYK -->
+        <div class="row mt-3">
+            <div class="col-12 metodoColori">METODO RGB E METODO CMYK</div>
+            <div class="col-8 offset-4"><img width="45%" src="img/rgb_cymk.png" title="" alt="RGB e CMYK" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE IL METODO RGB -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    <strong>Il metodo RGB</strong> (Red Green Blu) utilizza la <strong>sintesi adattiva</strong> andando a sommare i 3 colori presenti. <strong>Ognuno dei 3 colori utilizza 1 byte</strong> (8 bit) fornendo così 256 livelli (da 0 a 255)
+                    per il rosso (R), 256 livelli per il verde (G) e altrettanti per il blu (B) per un totale di 24 bit.
+                    <br> In questo modo <strong>è possibile rappresentare più di 16,5 milioni di colori</strong>.
+                    <br> Questo metodo è <strong>indicato per la visualizzazione a schermo</strong> e il file ha un <strong>peso ridotto del 25%</strong> rispetto allo stesso file ma a cui è applicato il metodo CMYK.
+                </p>
+            </div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE IL METODO CMYK -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    <strong>Il metodo CMYK</strong> (Cyan Magenta Yellow blacK) utilizza la <strong>sintesi sottrattiva</strong> (questo metodo è utilizzato nelle tipografie dove si stampa più volte lo stesso file sovrapponendo i colori fino ad ottenere
+                    come risultato l' immagine finale)
+                    <br> Questo metodo è <strong>indicato per la stampa in alta qualità</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- PALETTE DI COLORI E TRASPARENZA -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 paletteColori">PALETTE DI COLORI E TRASPARENZA</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="60%" src="img/palette.jpg" title="" alt="palette di colori" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LE PALETTE DI COLORI -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Con il termine <strong>PALETTE</strong> si intende una <strong>gamma di colori</strong> (es. la palette di colori di una scheda grafica, piuttosto che quella con i colori disponibili per realizzare un disegno). Normalmente si utilizza
+                    una palette di 256 colori (8 bit) <strong>riducendo di 2/3 la memoria occupata</strong> dato che non si usano più 3 byte per ciascun colore ma soltanto 1.
+                </p>
+            </div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA TRASPARENZA -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    La <strong>TRASPARENZA</strong> rende <strong>possibile vedere degli elementi grafici posti dietro l' immagine</strong>. Esistono 2 tipi di trasparenze:
+                    <br> la <strong>TRASPARENZA SEMPLICE</strong> dove viene <strong>definito trasparente un colore nella palette</strong> e la <strong>TRASPARENZA PER STRATO ALPHA</strong> dove <strong>ogni pixel definisce uno strato di
+                        trasparenza</strong> (0 - 255).
+                </p>
+            </div>
+        </div>
+
+        <!-- LOSSLESS E LOSSY -->
+        <div class="row mt-3">
+            <div class="col-12 compressione">COMPRESSIONE LOSSLESS E LOSSY</div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA COMPRESSIONE LOSSLESS -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    La compressione <strong>lossless</strong> si applica a qualunque informazione rappresentata in binario e <strong>si basa sul riconoscere le sequenze di bit e il numero di volte che si ripetono</strong>, così facendo <strong>si può assegnare codifiche più corte
+                    alle sequenze che si ripetono più sovente</strong> in modo da risparmiare spazio. Questa <strong>tecnica</strong> è anche <strong>utilizzata da WinZIP e WinRAR</strong>.
+                    <br>I formati più diffusi sono: <strong>GIF</strong> (Graphics Interchange Format), <strong>PNG</strong> (Portable Network Graphics) e <strong>TIFF</strong> (Tagged Image File Format).
+                </p>
+            </div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA COMPRESSIONE LOSSY -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    La compressione <strong>lossy</strong> si applica ai contenuti multimediali e sfrutta la <strong>biologia dei sistemi sensoriali</strong> è possibile di conseguenza modificare il file originale per ridurre lo spazio occupato mantenendo
+                    una buona qualità.
+                    <br>I formati più diffusi sono: <strong>JPEG</strong> (Joint Photographic Expert Group).
+                </p>
+            </div>
+        </div>
+
+        <!-- TASTO RITORNO INIZIO PAGINA -->
+        <div class="row mt-3">
+            <div class="col-2 bg-dark tastoHome"><a href="index.html">HOME</a></div>
+            <div class="col-1 offset-9 bg-warning tastoUp"><a href="#up">UP</a></div>
+        </div>
+
+    </div>
+
+    <!-- VA SEMPRE MESSO COME ULTIMA COSA PRIMA DI CHIUDERE IL BODY ! -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

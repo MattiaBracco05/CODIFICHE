@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3C - Bracco Mattia</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- PUNTO DI RITORNO INIZIO PAGINA -->
+        <a name="up"></a>
+
+        <!-- NAVBAR -->
+        <div class="row mb-3">
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 offset-xl-3 bg-dark navbar"><a href="index.html">HOME</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="testo.html">TESTO</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-success navbar">AUDIO</div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="immagini.html">IMMAGINI</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-1 bg-dark navbar"><a href="video.html">VIDEO</a></div>
+            <div class="col-sm-12, col-md-4 offset-md-2, col-xl-2 bg-dark navbar"><a href="corpo.html">CORPO UMANO</a></div>
+        </div>
+
+        <!-- INIZIO CODIFICHE AUDIO -->
+        <div class="row">
+            <a name="audio"></a>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10 col-xl-10 mt-3 audio">CODIFICHE AUDIO</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2 mt-3"><img width="100%" src="img/cuffie.jpg" title="" alt="cuffie" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE IL SUONO, GRAFICO ONDA SUONO -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 definizioni">
+                <p>
+                    Il <strong>SUONO</strong> è un <strong>segnale analogico bidimensionale</strong> dato che ha un' ampiezza in funzione del tempo. <strong>La digitalizzazione del suono</strong> avviene in <strong>2 passaggi distinti</strong>.
+                </p>
+            </div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="100%" src="img/onda_suono.png" title="" alt="onda suono" /></div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE IL CAMPIONAMENTO -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Il <strong>segnale analogico raggiunge un trasduttore</strong> (microfono) il quale <strong>trasforma l' onda sonora in un segnale elettrico</strong>. Il <strong>campionatore effettua a intervalli di tempo regolari</strong> (T) una
+                    <strong>discretizzazione</strong> (preleva campioni del segnale).
+                    <br> La <strong>frequenza</strong> di campionamento è data da <strong>1 / T</strong> e rappreseta il numero di campioni acquisiti nel tempo.
+                </p>
+            </div>
+        </div>
+
+        <!-- TESTO CHE DESCRIVE LA QUANTIZZAZIONE -->
+        <div class="row mt-3">
+            <div class="col-12 definizioni">
+                <p>
+                    Il <strong>quantizzatore</strong> prende il <strong>segnale</strong> precedentemente <strong>acquisito dal campionatore</strong> e lo <strong>converte in un segnale digitale</strong> (perdita di informazione). La <strong>perdita di informazioni</strong>                    si può definire <strong>in base al numero di bit a disposizione</strong> (livelli di quantizzazione).
+                </p>
+            </div>
+        </div>
+
+        <!-- IMMAGINE ERRORE QUANTIZZAZIONE -->
+        <div class="row">
+            <div class="col-8 offset-4"><img width="45%" src="img/errore_di_quantizzazione.png" title="" alt="errore di quantizzazione" /></div>
+        </div>
+
+        <!-- SCHEDA AUDIO PC E IMMAGINE -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 definizioni">
+                <p>
+                    Una <strong>scheda audio del computer</strong> esegue <strong>dagli 8.000 ai 48.000 campionamenti in 1 secondo</strong> (8 - 48 kHz), per quanto riguarda la <strong>quantizzazione</strong> può essere fatta a <strong>8, 6, o 32 bit</strong>.
+                </p>
+            </div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="100%" src="img/pc.jpeg" title="" alt="scheda audio" /></div>
+        </div>
+
+        <!-- FORMATI AUDIO -->
+        <div class="row">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10 col-xl-10 mt-3 audio">FORMATI FILE AUDIO</div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2 mt-3"><img width="100%" src="img/formati.jpg" title="" alt="formati file audio" /></div>
+        </div>
+
+        <!-- WAV E IMMAGINE -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="100%" src="img/wav.jpg" title="" alt="WAV" /></div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 definizioni">
+                <p>
+                    Il formato <strong>WAV</strong> (WAVE form audio file format) è lo standar <strong>impiegato nei CD</strong>, ha un <strong>valore di campionamento pari a 44.100 kHz</strong> (44.100 campioni al secondo), dato che in <strong>stereofonia</strong>                    si utilizzano <strong>2 canali</strong> ci sono 88.200 campioni al secondo. <strong>Ogni campione</strong> richiede <strong>16 bit</strong> per un <strong>totale di 1.4 Mbit/s</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- MP3 E IMMAGINE -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="100%" src="img/mp3.png" title="" alt="MP3" /></div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 definizioni">
+                <p>
+                    Il formato <strong>MP3</strong> (nato negli anni 90) <strong>riduce di 12 volte lo spazio occupato</strong>. Il suo algoritmo si basa sui limiti dell' udibilità andando a rimuovere suoni molto alti o molto bassi i quali avrebbero delle
+                    frequenze che non riusciremmo a percepire.
+                </p>
+            </div>
+        </div>
+
+        <!-- MIDI E IMMAGINE -->
+        <div class="row mt-3">
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-2, col-xl-2"><img width="100%" src="img/midi.jpeg" title="" alt="MIDI" /></div>
+            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-10, col-xl-10 definizioni">
+                <p>
+                    Il formato <strong>MIDI</strong> (acronimo di Musical Interface Digital Interface) <strong> nasce nel 1983 per <strong>permettere lo scambio di dati tra strumenti musicali</strong> appartenenti a marche diverse.
+                    <br> Un file MIDI ha dimensioni molto ridotte</strong> (un file WAV di 30 MB in formato MIDI arriva a pesare solo 30 KB), questo è dovuto al fatto che in questo tipo di formato <strong>è presente soltanto il codice dello strumento, la nota
+                    e il suo valore musicale</strong> mentre <strong>non è presente il timbro</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- TRACCIE CON DIVERSA QUALITÀ -->
+        <div class="row mt-3 mb-3">
+            <div class="col-12 audio">1 CANZONE 3 QUALITÀ DIVERSE</div>
+        </div>
+
+        <!-- TESTO CHE SPIEGA -->
+        <div class="row mb-3">
+            <div class="col-12 definizioni">
+                <p>Qui sotto è riportata 3 volte una tracia MP3 (Titolo: In The End, Artista: Linkin Park) campionata in 3 qualità diverse con FL Studio.
+                    <br> La prima ha un <strong>bitrate</strong> pari a <strong>32 kb/s</strong>, <strong>la seconda</strong> sale a <strong>128 kb/s mentre la 3</strong> (quella con qualità maggiore) ha un bitrate di <strong>320 kb/s</strong>.
+                    <br> Nelle 3 foto si può anche notare come cambi lo spazio occupato partendo da meno di 1 MB, arrivando a superare gli 8 MB con la qualità massima.
+                </p>
+            </div>
+        </div>
+
+        <!-- QUALITÀ BASSA -->
+        <div class="row">
+            <div class="col-8 offset-4"><img width="50%" src="img/bassa.png" title="" alt="bassa" /></div>
+        </div>
+
+        <audio loop="loop" autoplay="autoplay" controls="controls">
+            <source src="audio1.mp3" /> 
+        </audio>
+
+        <!-- QUALITÀ MEDIA -->
+        <div class="row">
+            <div class="col-8 offset-4"><img width="50%" src="img/media.png" title="" alt="media" /></div>
+        </div>
+
+        <audio loop="loop" autoplay="autoplay" controls="controls">
+            <source src="audio2.mp3" /> 
+        </audio>
+
+        <!-- QUALITÀ ALTA -->
+        <div class="row">
+            <div class="col-8 offset-4"><img width="50%" src="img/alta.png" title="" alt="alta" /></div>
+        </div>
+
+        <audio loop="loop" autoplay="autoplay" controls="controls">
+            <source src="audio3.mp3" /> 
+        </audio>
+
+        <!-- TASTO RITORNO INIZIO PAGINA -->
+        <div class="row mt-3">
+            <div class="col-2 bg-dark tastoHome"><a href="index.html">HOME</a></div>
+            <div class="col-1 offset-9 bg-warning tastoUp"><a href="#up">UP</a></div>
+        </div>
+
+    </div>
+
+    <!-- VA SEMPRE MESSO COME ULTIMA COSA PRIMA DI CHIUDERE IL BODY ! -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
